@@ -7,7 +7,7 @@ body{
 .logo{
     color: red;
 }
-.options{
+.items{
     font-family: "Poppins";
     color: white;
 }
@@ -17,17 +17,17 @@ body{
     font-weight: 500;
     padding-right: 25px;
 }
-.navbar{
+nav{
     display: flex;
     justify-content: space-between;
     padding: 1% 10%;
 }
-.Section-1{
+.page-1{
     display: flex;
     justify-content: space-around;
 }
 
-.img1{
+.hero-img{
     width:70%;
     position: relative;
     left:50px;
@@ -36,13 +36,13 @@ body{
 
 /* SECTION 1 */
 
-.sec1div{
+.hero-text{
     font-family: "Poppins";
     display: flex;
     flex-direction: column;
 }
 
-.sec1div h3{
+.hero-text h3{
     font-size: 1.3rem;
     font-weight: 700;
     color: #c91b28;
@@ -50,7 +50,7 @@ body{
     top:120px;
 }
 
-.sec1div h1{
+.hero-text h1{
     font-size: 3.5rem;
     color:white;
     font-weight: 600;
@@ -58,11 +58,11 @@ body{
     top:60px;
 }
 
-.sec1div p{
+.hero-text p{
     padding-right: 20%;
 }
 
-.smol-btn{
+.hero-btn{
     width: 130px;
     height: 40px;
     background-color: #c91b28;
@@ -71,9 +71,9 @@ body{
     font-weight: 500;
 }
 
-/* OPAQ */
+/* box-left */
 
-.opaq{
+.box-left{
     width:700px;
     height: 1000px;
     background-color: #181818;
@@ -83,7 +83,7 @@ body{
 
 /* SECTION 3 */
 
-.Section-3{
+.page-2{
     display: flex;
     justify-content: space-around;
     font-family: "Poppins";
@@ -91,7 +91,7 @@ body{
     padding-top: 6%;
 }
 
-.card{
+.box{
     width:330px;
     height: 340px;
     background-color: #1e1e1e;
@@ -102,7 +102,7 @@ body{
     justify-content: center;
 }
 
-.card h3{
+.box h3{
     font-size: 1.5rem;
 }
 a{
@@ -116,7 +116,7 @@ a{
     color:white;
 }
 
-.card p{
+.box p{
     text-align: center;
     padding: 1% 10%;
 }
@@ -124,19 +124,19 @@ a{
     color: white;
 }
 
-/* infototal */
+/* table */
 
-.experience{
+.years{
     position: relative;
     left:180px;
 }
 
-.experience h3{
+.years h3{
     position: relative;
     bottom:50px;
 }
 
-.infototal{
+.table{
     font-family: "Poppins";
     display: flex;
     margin-top: 5%;
@@ -145,28 +145,28 @@ a{
     width: 90%;
 }
 
-.infosub{
+.tabs{
     display: flex;
     flex-wrap: wrap;
     width: 900px;
 }
 
-.infosub h2{
+.tabs h2{
     font-size: 2.5rem;
     color: #c91b28;
 }
 
-.experience h2{
+.years h2{
     font-size: 5rem;
     color: #c91b28;
 }
 
-.infosub p{
+.tabs p{
     position: relative;
     bottom:10px;
 }
 
-.infodiv{
+.tab-div{
     margin-bottom: 5%;
     margin-left: 13%;
     width:300px;
@@ -174,14 +174,14 @@ a{
     background-color: #1e1e1e;
     text-align: center;
 }
-.infosub{
+.tabs{
     position: relative;
     left:208px;
 }
 
 /* thumbnail section */
 
-.row-text{
+.pages{
     font-family: "Poppins";
     display: flex;
     justify-content: space-around;
@@ -189,7 +189,7 @@ a{
     padding-bottom: 2%;
 }
 
-.row-text button{
+.pages button{
     width: 120px;
     height: 35px;
     background-color: #c91b28;
@@ -197,7 +197,7 @@ a{
     border-style: none;
 }
 
-.allrow{
+.rows{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,20 +213,20 @@ a{
     width: 1000px;
     padding-bottom: 150px;;
 }
-.rowcover{
+.row-box{
     width: 360px;
     height: 280px;
     display: flex;
     flex-direction: column;
 }
 
-.rowcover h4{
+.row-box h4{
     color: #c91b28;
     position: relative;
     bottom:30px;
 }
 
-.imagesize{
+.page-img{
     width: 450px;
     height: 280px;
     padding: 2%;
@@ -234,7 +234,7 @@ a{
     padding-bottom: 15%;
 }
 
-.imgcover{
+.row-img{
     background-color: #1e1e1e;
     width:480px;
     display: flex;
@@ -254,7 +254,11 @@ a{
     background-color: #1e1e1e;
     align-items: center;
 }
-.cnt-btn{
+.contact-text h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.contact-btn{
     width: 110px;
     height: 35px;
     background-color: #c91b28;
@@ -262,15 +266,16 @@ a{
     border-style: none;
 }
 
-.con-text{
+.contact-text{
     width:400px;
 }
-.con-text h2{
-    font-size: 1.7rem;
-    font-weight: 500;
-}
 
-.footer-links{
+.footer-items a{
+    color: white;
+    font-weight: 400;
+
+}
+.footer-items{
     display: flex;
     justify-content: center;
     gap:50px;
@@ -278,10 +283,10 @@ a{
     padding-bottom: 20px;;
 }
 
-.footer-links a{
-    color: white;
-    font-weight: 400;
 
+.icn{
+    display: flex;
+    gap: 40px;
 }
 
 .bottom{
@@ -291,52 +296,47 @@ a{
     padding: 3% 8%;
 }
 
-.icons-media{
-    display: flex;
-    gap: 40px;
-}
-
 
 @media screen and (max-width:976px){
-    .opaq{
+    .box-left{
         width: 90%;
     }
-.Section-1{
+.page-1{
     flex-direction: column;
     align-items: center;
     text-align: center;
 }   
-.Section-3{
+.page-2{
     flex-direction: column;
     align-items: center;
     gap: 30px;
     width: 400px;
 }
-.card{
+.box{
     position: relative;
     left:100px;
 }
-.infototal{
+.table{
     flex-direction: column;
     align-items: center;
     left: 0px;
 }
-.experience{
+.years{
     left: 0px;
 }
-.infosub{
+.tabs{
     left:0px;
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
     width:90%
  }
- .infodiv{
+ .tab-div{
     margin-left: 0;
     position: relative;
     left:30px;
  }
- .allrow{
+ .rows{
     gap:0px;
  }
  .row{
@@ -352,20 +352,20 @@ a{
     margin-top: 20%;
     text-align: center;
  }
- .row-text{
+ .pages{
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding-bottom: 6%;
  }
- .rowcover{
+ .row-box{
     
     margin-bottom: 140px;
  }
- .sec1div p{
+ .hero-text p{
     padding-left:20%;
  }
-.sec1div{
+.hero-text{
     align-items: center;
     padding-bottom: 60px;
 }
@@ -376,12 +376,12 @@ a{
     gap:30px;
     padding-bottom: 10%;
 }
-.imagesize{
+.page-img{
     width: 380px;
     height: 220px;
 }
 
-.imgcover{
+.row-img{
     background-color: #1e1e1e;
     width:480px;
     display: flex;
@@ -392,17 +392,17 @@ a{
 }
 
 @media screen and (max-width:768px) {
-    .options{
+    .items{
         visibility: hidden;
     }
-    .navbar{
+    nav{
         flex-direction: column;
         align-items: center;
     }
     .logo{
         padding-top: 30px;
     }
-    .card{
+    .box{
         position: relative;
         left:0px;
      }
